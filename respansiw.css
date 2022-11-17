@@ -20,7 +20,7 @@
 
 
     }
-    
+
 
 }
 
@@ -43,21 +43,93 @@
         left: 60px;
         top: 350px;
     }
-h1{
-    position: absolute;
-    right: 11px;
-    top: 70px;
-    text-align: center;
-    font-size: 47px;
+    h1{
+        position: absolute;
+        right: 11px;
+        top: 70px;
+        text-align: center;
+        font-size: 47px;
+    }
+    .circle1{
+        display: none;
+    }
+    #p{
+        top: 158px;
+        right: 6px;
+
+    }
+    .start-btn{
+        right: 195px;
+        top: 290px;
+
+    }
 }
-.circle1{
-    display: none;
-}
-#p{
-    top: 158px;
-    right: 6px;
+
+
+@media screen and (min-width: 767px) and (max-width: 1032px)  {
+
+
+    .circle1{
+        display: none;
+    }
+
+    .anar {
+        position: absolute;
+        bottom: 0;
+        width: 400px;
+        height: 400px;
+        background-image: url(anar.png);
+        background-position: center;
+        background-size: auto;
+        background-repeat: no-repeat;
+        top: 367px;
+        left: 250px;
+
+
+    }
+
 
 }
+
+ @media (max-width: 762px) {
+     .header{
+         justify-content: center;
+     }
+
+ }
+
+@media screen and (min-width: 500px) and (max-width: 760px) {
+
+    .tap-nav {
+        display: none;
+        color: red;
+
+    }
+    #img {
+        position: absolute;
+        top: 15px;
+        left: 218px;
+    }
+
+    .anar{
+        left: 60px;
+        top: 350px;
+    }
+    h1{
+        position: absolute;
+        right: 11px;
+        top: 70px;
+        text-align: center;
+        font-size: 47px;
+    }
+    .circle1{
+        display: none;
+    }
+    #p{
+        top: 158px;
+        right: 6px;
+
+    }
     .start-btn{
         right: 195px;
         top: 290px;
